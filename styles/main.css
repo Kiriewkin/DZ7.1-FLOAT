@@ -1,0 +1,159 @@
+.container {
+    width: 310px;
+    height: 1220px;
+    background-color: rgba(251, 251, 251, 1);
+    float: left;
+}
+
+.main-section {
+    margin-top: 46px;
+    display: inline-block;
+}
+
+.categories {
+    width: 103px;
+    height: 383px;
+    list-style-type: none;
+    margin: 14px 189px 377px 18px;
+    padding-left: 0px;
+    font-size: 15px;
+}
+
+.categories h2 {
+    font-size: 18px;
+    color: rgba(61, 61, 61, 1);
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.categories li {
+    margin-bottom: 20px;
+}
+
+.categories li a {
+    text-decoration: none;
+    color: rgba(61, 61, 61, 1);
+}
+
+.categories li a:hover {
+    color:green;
+}
+
+.categories li a.active {
+    color:rgba(70, 163, 88, 1);
+    font-weight: bold;
+}
+
+.categories li:last-child {
+    margin-bottom: 0px;
+}
+
+.flower-in-categories {
+    width: 310px;
+    height: 370px;
+}
+
+.container-flowers {
+    width: 857px;
+    float: right;
+    margin-left: 50px;
+}
+
+.filter {
+    width: 838px;
+    height: 28px;
+}
+
+.filter a:hover {
+    color: green;
+}
+
+.filter a {
+    text-decoration: 0;
+    margin-right: 40px;
+    font-size: 15px;
+    color:rgba(61, 61, 61, 1);
+}
+
+.filter a:first-child {
+    color:rgba(70, 163, 88, 1);
+    border-bottom: 2px solid rgba(70, 163, 88, 1);;
+    padding-bottom: 7px;
+}
+
+.filter a:nth-child(3) {
+    margin-right: 385px;
+}
+
+.filter a:last-child {
+    margin-right: 0px;
+}
+
+.picture-flowers {
+    display: inline-block;
+}
+
+.flowers {
+    float: right;
+    margin-right: 33px;
+    margin-bottom: 70px;
+    width: 258px;
+    height: 350px;
+}
+
+.flowers:nth-last-of-type(3n) {
+    margin-right: 0px;
+}
+
+.flowers p {
+    margin-top: 12px;
+    color: rgba(61, 61, 61, 1);
+    font-size: 16px;
+    width: 200px;
+    height: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flowers span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(70, 163, 88, 1);
+    margin-top: 5px;
+}
+
+.link-box {
+    float: right;
+    margin-bottom: 82px;
+}
+
+.link-box-decoration {
+    text-decoration: none;
+    border: 1px solid rgba(229, 229, 229, 1);
+    width: 35px;
+    height: 35px;
+    border-radius: 4px 0px 0px 0px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 10px;
+    color:rgba(61, 61, 61, 1);
+    font-size: 18px;
+}
+
+.link-box-decoration:first-child {
+    background: rgba(70, 163, 88, 1);
+    color: white;
+}
+
+.link-box-decoration:last-child {
+    margin-right: 0px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
