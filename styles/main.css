@@ -1,21 +1,19 @@
 .container {
     width: 310px;
-    height: 1220px;
     background-color: rgba(251, 251, 251, 1);
     float: left;
+    margin-right: 50px;
 }
 
 .main-section {
     margin-top: 46px;
-    display: inline-block;
 }
 
 .categories {
-    width: 103px;
-    height: 383px;
-    list-style-type: none;
     margin: 14px 189px 377px 18px;
-    padding-left: 0px;
+}
+
+.categories-list{
     font-size: 15px;
 }
 
@@ -48,20 +46,23 @@
     margin-bottom: 0px;
 }
 
-.flower-in-categories {
-    width: 310px;
-    height: 370px;
+.promo {
+    display: flex;
+    justify-content: center;
+}
+
+.promo img {
+    width: 370px;
+    height: 470px;
 }
 
 .container-flowers {
-    width: 857px;
+    width: 840px;
     float: right;
-    margin-left: 50px;
 }
 
 .filter {
-    width: 838px;
-    height: 28px;
+    margin-bottom: 31px;
 }
 
 .filter a:hover {
@@ -89,33 +90,43 @@
     margin-right: 0px;
 }
 
-.picture-flowers {
-    display: inline-block;
+.product {
+    width: 250px;
+    height: 250px;
+    padding: 31px 4px 19px 4px;
 }
 
 .flowers {
-    float: right;
+    float: left;
     margin-right: 33px;
     margin-bottom: 70px;
     width: 258px;
-    height: 350px;
+    text-align: center;
 }
 
-.flowers:nth-last-of-type(3n) {
-    margin-right: 0px;
+.fon {
+    display: inline-block;
+    width: 258px;
+    height: 300px;
+    background-color:rgba(251, 251, 251, 1);
 }
 
-.flowers p {
+.flowers:nth-child(3n) {
+    margin-right: 0;
+}
+
+.flowers:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
+.title-card {
+    text-align: left;
     margin-top: 12px;
     color: rgba(61, 61, 61, 1);
     font-size: 16px;
-    width: 200px;
-    height: 16px;
-    display: flex;
-    flex-direction: column;
 }
 
-.flowers span {
+.price {
     font-size: 18px;
     font-weight: 700;
     line-height: 16px;
@@ -126,7 +137,9 @@
 
 .link-box {
     float: right;
+    margin-top: 90px;
     margin-bottom: 82px;
+    font-size: 0;
 }
 
 .link-box-decoration {
@@ -134,14 +147,16 @@
     border: 1px solid rgba(229, 229, 229, 1);
     width: 35px;
     height: 35px;
-    border-radius: 4px 0px 0px 0px;
+    border-radius: 4px;
     display: inline-block;
     text-align: center;
     line-height: 35px;
     margin-right: 10px;
     color:rgba(61, 61, 61, 1);
     font-size: 18px;
+    vertical-align: middle;
 }
+
 
 .link-box-decoration:first-child {
     background: rgba(70, 163, 88, 1);
